@@ -1,0 +1,384 @@
+.filter-container {
+  display: flex;
+  position: absolute;
+  top: 8rem;
+  left: 1.6rem;
+  flex-direction: row;
+}
+
+.liveButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(92, 92, 92);
+  background: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 18px;
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 4px -1px;
+  border-radius: 20% 0 0 20%;
+  float: left;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  border: none;
+}
+
+.liveButton img {
+  margin: 5px 5px 5px 2px;
+  float: left;
+  width: 20px;
+}
+
+.liveButton:hover {
+  background-color: rgb(22, 193, 243);
+  color: rgb(255, 255, 255);
+}
+
+.plannedButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(92, 92, 92);
+  background: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 18px;
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 4px -1px;
+  border-radius: 0 0% 0% 0;
+  float: left;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  border: none;
+}
+
+.plannedButton img {
+  margin: 5px 5px 5px 2px;
+  float: left;
+  width: 20px;
+}
+
+.plannedButton:hover {
+  background-color: rgb(22, 193, 243);
+  color: rgb(255, 255, 255);
+}
+
+.showAllButton {
+  background: rgb(255, 255, 255);
+  font-size: 18px;
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 4px -1px;
+  border-radius: 0 20% 20% 0;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  border: none;
+  color: rgb(92, 92, 92);
+  padding: 10px;
+}
+
+.showAllButton:hover {
+  background-color: rgb(22, 193, 243);
+  color: #ffffff;
+}
+
+.searchBox {
+  position: absolute;
+  padding: 0px 40px 0px 0px;
+  top: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 11;
+  background: white;
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 4px -1px;
+  border-radius: 10px;
+  border: none;
+}
+
+.searchBox input {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.searchImgButton {
+  position: absolute;
+  top: 0.45rem;
+  left: 18rem;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.findLocationButton {
+  position: absolute;
+  top: 8.23rem;
+  left: 15.8rem;
+  z-index: 10;
+  background: white;
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 4px -1px;
+  border-radius: 20%;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.findLocationButton img {
+  margin: 2px 0px 2px 0px;
+  float: left;
+}
+
+.findLocationButton:hover {
+  background-color: rgb(22, 193, 243);
+}
+
+.report-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.reportPowerOutage {
+  color: #fff;
+  background-color: #7ac29a;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.reportPowerOutage:hover {
+  background-color: #16bd61;
+}
+
+.reportNetworkHazard {
+  color: #fff;
+  background-color: #6d6b68;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.reportNetworkHazard:hover {
+  background-color: #383736;
+}
+
+.cancelReport {
+  color: #fff;
+  background-color: #e97c50;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.cancelReport:hover {
+  background-color: #d44b14;
+}
+
+.savePrefferedLocation {
+  color: #fff;
+  background-color: rgb(89, 215, 253);
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.savePrefferedLocation:hover {
+  background-color: rgb(0, 195, 255);
+}
+
+.locationSaved {
+  background-color: rgb(182, 255, 182);
+  color: rgb(26, 156, 26);
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.locationNotSaved {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.horizontal {
+  background-color: black;
+  height: 20px;
+  width: 3px;
+}
+
+.info-window {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  font-family: Arial;
+}
+
+.img-txt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 25rem;
+}
+
+.LogIn-container {
+  display: flex;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  flex-direction: row;
+}
+
+.LogIn {
+  display: flex;
+  flex-direction: row;
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 4px -1px;
+  border-radius: 20% 0% 0% 20%;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  border: none;
+  color: rgb(22, 193, 243);
+  font-family: Arial;
+  font-size: 18px;
+  align-items: center;
+  padding: 10px 5px 10px 10px;
+}
+
+.LogIn:hover {
+  background-color: rgb(22, 193, 243);
+  color: rgb(255, 255, 255);
+}
+
+.SignUp {
+  display: flex;
+  flex-direction: row;
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 4px -1px;
+  border-radius: 0% 20% 20% 0%;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  border: none;
+  color: rgb(22, 193, 243);
+  font-family: Arial;
+  font-size: 18px;
+  align-items: center;
+  padding: 10px 10px 10px 5px;
+}
+
+.SignUp:hover {
+  background-color: rgb(22, 193, 243);
+  color: rgb(255, 255, 255);
+}
+
+.menu-container {
+  display: flex;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  flex-direction: column;
+}
+
+.menu {
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 4px -1px;
+  border-radius: 20% 20% 20% 20%;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  border: none;
+  color: rgb(22, 193, 243);
+  font-family: Arial;
+  font-size: 18px;
+  padding: 10px 15px 10px 15px;
+}
+
+.menu:hover {
+  background-color: rgb(22, 193, 243);
+  color: rgb(255, 255, 255);
+}
+
+.showLocations {
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 4px -1px;
+  border-radius: 20% 20% 0% 0%;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  border: none;
+  color: rgb(22, 193, 243);
+  font-family: Arial;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.showLocations:hover {
+  background-color: rgb(22, 193, 243);
+  color: rgb(255, 255, 255);
+}
+
+.LogOut {
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 40%) 0px 1px 4px -1px;
+  border-radius: 0% 0% 20% 20%;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  border: none;
+  color: rgb(22, 193, 243);
+  font-family: Arial;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+}
+
+.LogOut:hover {
+  background-color: rgb(22, 193, 243);
+  color: rgb(255, 255, 255);
+}
+
+.locationsTable {
+  display: flex;
+  flex-direction: column;
+  z-index: 11;
+  position: absolute;
+  top: 9rem;
+  right: 0.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  padding: 15px;
+  color: rgb(22, 193, 243);
+  align-items: center;
+  font-family: Arial;
+  font-size: 18px;
+  cursor:default;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+.deleteLocation {
+  border: solid 1px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  color: rgb(119, 214, 243);
+}
+
+.deleteLocation:hover {
+  background-color: rgb(22, 193, 243);
+  color: rgb(255, 255, 255);
+}
