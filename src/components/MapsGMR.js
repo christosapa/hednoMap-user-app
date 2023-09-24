@@ -59,7 +59,7 @@ export default function Maps() {
   const [showPlannedMarkers, setPlannedMarkers] = useState(true);
 
   // load and format data
-  const url = 'http://localhost:9000/locationsAPI';
+  const url = 'https://hedno-map-api.herokuapp.com/locationsAPI';
   const { data, error } = useSwr(url, { fetcher });
   const locations = data && !error ? data : [];
 
@@ -82,7 +82,7 @@ export default function Maps() {
 
   const signOut = async () => {
     await logOut();
-    navigate('/hednoMap');
+    navigate('/hednoMap-user-app');
     setShowLogin(true)
     setShowSignup(true)
     setSuccessfulLogin(false)
