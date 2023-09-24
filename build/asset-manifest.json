@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/hednoMap/static/css/main.6a22cd94.chunk.css",
-    "main.js": "/hednoMap/static/js/main.218cba9b.chunk.js",
-    "main.js.map": "/hednoMap/static/js/main.218cba9b.chunk.js.map",
-    "runtime-main.js": "/hednoMap/static/js/runtime-main.ec61135f.js",
-    "runtime-main.js.map": "/hednoMap/static/js/runtime-main.ec61135f.js.map",
-    "static/css/2.68584d97.chunk.css": "/hednoMap/static/css/2.68584d97.chunk.css",
-    "static/js/2.fbf6715b.chunk.js": "/hednoMap/static/js/2.fbf6715b.chunk.js",
-    "static/js/2.fbf6715b.chunk.js.map": "/hednoMap/static/js/2.fbf6715b.chunk.js.map",
-    "index.html": "/hednoMap/index.html",
-    "precache-manifest.17006afdc0089f1be1577216653f4a7b.js": "/hednoMap/precache-manifest.17006afdc0089f1be1577216653f4a7b.js",
-    "service-worker.js": "/hednoMap/service-worker.js",
-    "static/css/2.68584d97.chunk.css.map": "/hednoMap/static/css/2.68584d97.chunk.css.map",
-    "static/css/main.6a22cd94.chunk.css.map": "/hednoMap/static/css/main.6a22cd94.chunk.css.map",
-    "static/js/2.fbf6715b.chunk.js.LICENSE.txt": "/hednoMap/static/js/2.fbf6715b.chunk.js.LICENSE.txt",
-    "static/media/logo_tr.png": "/hednoMap/static/media/logo_tr.595df582.png",
-    "static/media/myLocation.svg": "/hednoMap/static/media/myLocation.5e19bf27.svg"
+    "main.css": "/hednoMap-user-app/static/css/main.6a22cd94.chunk.css",
+    "main.js": "/hednoMap-user-app/static/js/main.978ebb71.chunk.js",
+    "main.js.map": "/hednoMap-user-app/static/js/main.978ebb71.chunk.js.map",
+    "runtime-main.js": "/hednoMap-user-app/static/js/runtime-main.502fd7af.js",
+    "runtime-main.js.map": "/hednoMap-user-app/static/js/runtime-main.502fd7af.js.map",
+    "static/css/2.68584d97.chunk.css": "/hednoMap-user-app/static/css/2.68584d97.chunk.css",
+    "static/js/2.fbf6715b.chunk.js": "/hednoMap-user-app/static/js/2.fbf6715b.chunk.js",
+    "static/js/2.fbf6715b.chunk.js.map": "/hednoMap-user-app/static/js/2.fbf6715b.chunk.js.map",
+    "index.html": "/hednoMap-user-app/index.html",
+    "precache-manifest.ea6617e7f78a5215b1f71e3411594f43.js": "/hednoMap-user-app/precache-manifest.ea6617e7f78a5215b1f71e3411594f43.js",
+    "service-worker.js": "/hednoMap-user-app/service-worker.js",
+    "static/css/2.68584d97.chunk.css.map": "/hednoMap-user-app/static/css/2.68584d97.chunk.css.map",
+    "static/css/main.6a22cd94.chunk.css.map": "/hednoMap-user-app/static/css/main.6a22cd94.chunk.css.map",
+    "static/js/2.fbf6715b.chunk.js.LICENSE.txt": "/hednoMap-user-app/static/js/2.fbf6715b.chunk.js.LICENSE.txt",
+    "static/media/logo_tr.png": "/hednoMap-user-app/static/media/logo_tr.595df582.png",
+    "static/media/myLocation.svg": "/hednoMap-user-app/static/media/myLocation.5e19bf27.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec61135f.js",
+    "static/js/runtime-main.502fd7af.js",
     "static/css/2.68584d97.chunk.css",
     "static/js/2.fbf6715b.chunk.js",
     "static/css/main.6a22cd94.chunk.css",
-    "static/js/main.218cba9b.chunk.js"
+    "static/js/main.978ebb71.chunk.js"
   ]
 }
