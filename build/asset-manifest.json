@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hednoMap/static/css/main.abf08de6.css",
+    "main.js": "/hednoMap/static/js/main.d029f6cc.js",
+    "static/media/myLocation.svg": "/hednoMap/static/media/myLocation.687a786f0583ed2ee1b064da318d74bd.svg",
+    "static/media/logo_tr.png": "/hednoMap/static/media/logo_tr.5639071f761f4f817618.png",
+    "index.html": "/hednoMap/index.html",
+    "main.abf08de6.css.map": "/hednoMap/static/css/main.abf08de6.css.map",
+    "main.d029f6cc.js.map": "/hednoMap/static/js/main.d029f6cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abf08de6.css",
+    "static/js/main.d029f6cc.js"
+  ]
+}
