@@ -13,6 +13,7 @@ jobs:
 
     - name: Build
       run: |
+        npm config set legacy-peer-deps true
         npm install
         npm run-script build
       env:
