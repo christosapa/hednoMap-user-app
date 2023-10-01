@@ -7,7 +7,7 @@ const Header = () => {
 
     const navigate = useNavigate()
     const homePage = () => {
-        navigate('/hednoMap')
+        navigate('/hednoMap-user-app')
     }
 
     return (
