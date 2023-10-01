@@ -19,7 +19,7 @@ jobs:
         REACT_APP_GOOGLE_API_KEY: ${{ secrets.REACT_APP_GOOGLE_API_KEY }}
 
     - name: Deploy
-      uses: christosapa/hednoMap-user-app@gh-pages
+      uses: christosapa/hednoMap-user-app@main
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_KEY }}
         BRANCH: gh-pages
