@@ -1,27 +1,15 @@
 {
   "files": {
-    "main.css": "/hednoMap-user-app/static/css/main.6a22cd94.chunk.css",
-    "main.js": "/hednoMap-user-app/static/js/main.978ebb71.chunk.js",
-    "main.js.map": "/hednoMap-user-app/static/js/main.978ebb71.chunk.js.map",
-    "runtime-main.js": "/hednoMap-user-app/static/js/runtime-main.502fd7af.js",
-    "runtime-main.js.map": "/hednoMap-user-app/static/js/runtime-main.502fd7af.js.map",
-    "static/css/2.68584d97.chunk.css": "/hednoMap-user-app/static/css/2.68584d97.chunk.css",
-    "static/js/2.fbf6715b.chunk.js": "/hednoMap-user-app/static/js/2.fbf6715b.chunk.js",
-    "static/js/2.fbf6715b.chunk.js.map": "/hednoMap-user-app/static/js/2.fbf6715b.chunk.js.map",
-    "index.html": "/hednoMap-user-app/index.html",
-    "precache-manifest.ea6617e7f78a5215b1f71e3411594f43.js": "/hednoMap-user-app/precache-manifest.ea6617e7f78a5215b1f71e3411594f43.js",
-    "service-worker.js": "/hednoMap-user-app/service-worker.js",
-    "static/css/2.68584d97.chunk.css.map": "/hednoMap-user-app/static/css/2.68584d97.chunk.css.map",
-    "static/css/main.6a22cd94.chunk.css.map": "/hednoMap-user-app/static/css/main.6a22cd94.chunk.css.map",
-    "static/js/2.fbf6715b.chunk.js.LICENSE.txt": "/hednoMap-user-app/static/js/2.fbf6715b.chunk.js.LICENSE.txt",
-    "static/media/logo_tr.png": "/hednoMap-user-app/static/media/logo_tr.595df582.png",
-    "static/media/myLocation.svg": "/hednoMap-user-app/static/media/myLocation.5e19bf27.svg"
+    "main.css": "/hednoMap/static/css/main.abf08de6.css",
+    "main.js": "/hednoMap/static/js/main.d029f6cc.js",
+    "static/media/myLocation.svg": "/hednoMap/static/media/myLocation.687a786f0583ed2ee1b064da318d74bd.svg",
+    "static/media/logo_tr.png": "/hednoMap/static/media/logo_tr.5639071f761f4f817618.png",
+    "index.html": "/hednoMap/index.html",
+    "main.abf08de6.css.map": "/hednoMap/static/css/main.abf08de6.css.map",
+    "main.d029f6cc.js.map": "/hednoMap/static/js/main.d029f6cc.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.502fd7af.js",
-    "static/css/2.68584d97.chunk.css",
-    "static/js/2.fbf6715b.chunk.js",
-    "static/css/main.6a22cd94.chunk.css",
-    "static/js/main.978ebb71.chunk.js"
+    "static/css/main.abf08de6.css",
+    "static/js/main.d029f6cc.js"
   ]
 }
