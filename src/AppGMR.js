@@ -13,8 +13,8 @@ export default function AppGMR() {
     <DataProvider>
       <Routes>
         <Route path='/' element={<Layout />}>
-          <Route path='/hednoMap' element={<Maps />} />
-          <Route path='/hednoMap/confirm/:confirmationCode' element={<Welcome />} />
+          <Route path='/hednoMap-user-app' element={<Maps />} />
+          <Route path='/hednoMap-user-app/confirm/:confirmationCode' element={<Welcome />} />
           <Route element={<PersistLogin />}>
             <Route element={<RequireAuth />}>
               <Route path='/hednoMapHome' element={<Maps />} />
