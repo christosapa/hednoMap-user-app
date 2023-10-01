@@ -19,8 +19,9 @@ jobs:
         REACT_APP_GOOGLE_API_KEY: ${{ secrets.REACT_APP_GOOGLE_API_KEY }}
 
     - name: Deploy
-      uses: christosapa/hednoMap-user-app@main
+      uses: peaceiris/actions-gh-pages@v4
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_KEY }}
         BRANCH: gh-pages
         FOLDER: dist
+        publish_dir: ../build
